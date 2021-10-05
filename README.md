@@ -13,3 +13,7 @@ yarn dev
 #### Tools there are used:
 
 <li>Coming...</li>
+
+#### TODO
+
+- [] make sure buttons fixed on mobile devices
