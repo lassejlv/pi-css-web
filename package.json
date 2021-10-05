@@ -1,8 +1,8 @@
 {
   "name": "pi-css-web",
   "version": "1.0.0",
-  "description": "website for pi-css",
-  "main": "index.js",
+  "description": "The CSS framework based on html classess",
+  "main": "./src/js/script.js",
   "repository": "https://github.com/lassev2005/pi-css-web.git",
   "author": "LasseV",
   "license": "ISC",

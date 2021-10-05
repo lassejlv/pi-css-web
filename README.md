@@ -18,3 +18,4 @@ yarn dev
 
 - [x] make sure buttons fixed on mobile devices
 - [x] add download button, to download pi-css
+- [] create src/manifest.json
