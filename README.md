@@ -16,4 +16,4 @@ yarn dev
 
 #### TODO
 
-- [x] make sure buttons fixed on mobile devices
+- [] make sure buttons fixed on mobile devices
