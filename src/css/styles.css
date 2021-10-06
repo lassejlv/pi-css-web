@@ -26,7 +26,7 @@ body {
 .header {
   color: #fff;
   background-image: linear-gradient(120deg, #155799, #34383e);
-  height: 20em;
+  height: 18em;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -36,13 +36,13 @@ body {
 }
 
 .header h1 {
-  font-size: 65px;
+  font-size: 55px;
   text-shadow: var(--shadow);
   text-transform: uppercase;
 }
 
 .header p {
-  font-size: 25px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif !important;
 }
 
@@ -96,6 +96,17 @@ body {
 .install {
   background: var(--dark);
   height: 18em;
+}
+
+/* Footer */
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  margin-left: 0.5em;
+  font-family: Poppins !important;
+  cursor: pointer;
+  font-size: 20px;
 }
 
 /* Mobile Design */

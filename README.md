@@ -16,6 +16,8 @@ yarn dev
 
 #### TODO
 
-- [x] make sure buttons fixed on mobile devices
+- [] make sure buttons fixed on mobile devices
 - [x] add download button, to download pi-css
-- [] create src/manifest.json
+- [x] create src/manifest.json
+- [] make mobile devices design done
+- [x] add lang support for danish language
