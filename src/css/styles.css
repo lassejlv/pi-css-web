@@ -129,3 +129,10 @@ footer {
     display: inline-block;
   }
 }
+
+@media screen and (max-width: 340px) {
+  /* footer */
+  footer {
+    display: none;
+  }
+}

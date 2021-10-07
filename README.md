@@ -21,3 +21,4 @@ yarn dev
 - [x] create src/manifest.json
 - [x] make mobile devices design done
 - [x] add lang support for danish language
+- [x] add mobile design to footer
