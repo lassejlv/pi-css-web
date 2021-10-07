@@ -22,3 +22,5 @@ yarn dev
 - [x] make mobile devices design done
 - [x] add lang support for danish language
 - [x] add mobile design to footer
+- [x] add downloads page
+- [x] add 404 page

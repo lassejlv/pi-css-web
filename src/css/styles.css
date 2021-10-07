@@ -110,6 +110,41 @@ footer {
   font-size: 20px;
 }
 
+/* Downloads page */
+
+.header-2 {
+  color: #fff;
+  background-image: linear-gradient(120deg, #155799, #34383e);
+  height: 15em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  font-family: Poppins;
+  box-shadow: var(--shadow);
+}
+
+.header-2 h1 {
+  font-size: 55px;
+  text-shadow: var(--shadow);
+  text-transform: uppercase;
+}
+
+.header-2 p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.header-2 strong {
+  text-shadow: var(--shadow);
+}
+
+/* dowloads versions section */
+
+.downloads {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
 /* Mobile Design */
 
 @media screen and (max-width: 650px) {
