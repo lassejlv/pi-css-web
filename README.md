@@ -25,3 +25,7 @@ yarn dev
 - [x] add downloads page
 - [x] add 404 page
 - [x] add cdn downloads section
+
+  ##### Docs Page
+
+  - [] create a start page with a overview

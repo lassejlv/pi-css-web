@@ -1,0 +1,61 @@
+* {
+  font-family: var(--pop) !important;
+}
+
+body {
+  background-color: var(--body);
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+}
+
+/* Root */
+
+:root {
+  --shadow: 0px 4px 5px rgb(0, 0, 0, 0.5);
+  --dark: #16191c;
+  --body: #f8f9fa;
+  --pop: Poppins;
+  --bg-img: linear-gradient(120deg, #155799, #34383e);
+}
+
+/* navbvar */
+nav {
+  align-items: center;
+  justify-content: space-around;
+  user-select: none;
+  z-index: 12px;
+  background-image: var(--bg-img);
+  height: 5rem;
+}
+
+#logo {
+  color: white;
+  z-index: 12px;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  color: white;
+  margin-right: 10px;
+  transition: color 0.5s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #c2c2c2;
+}
+
+/* Mobile Design */
+
+@media screen and (max-width: 650px) {
+  .nav-links {
+    display: none;
+  }
+}
