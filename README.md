@@ -24,3 +24,4 @@ yarn dev
 - [x] add mobile design to footer
 - [x] add downloads page
 - [x] add 404 page
+- [x] add cdn downloads section

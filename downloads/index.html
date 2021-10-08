@@ -56,19 +56,48 @@
     </header>
     <main>
       <section class="downloads">
-        <h1 class="center mt-4">
-          Choose an version to download below. Or you just want a
-          <a class="text-blue-light-2" href="/downloads/cdn">CDN</a>?
-        </h1>
+        <h1 class="text-center mt-3 font-xl">Downloads</h1>
         <br />
         <div class="downloads-versions text-center font-lg">
           <a
             title="Click to download v0.0.3 (stable)"
             download="pi-css-v0-0-3"
-            class="text-blue-dark-1 mt-3"
+            class="text-blue mt-3"
             href="../downloads/pi-css/0.0.3/index.css"
             >v0.0.3</a
           >
+        </div>
+      </section>
+      <section class="cdn">
+        <h1 class="text-center mt-3 font-xl">CDN</h1>
+        <div class="center">
+          <!-- The cdn text field -->
+          <input
+            style="
+              width: 25%;
+              padding: 12px 10px;
+              margin: 8px 0;
+              border: none;
+              box-sizing: border-box;
+              box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+            "
+            type="text"
+            value="https://unpkg.com/pi-css@0.0.3/css/index.css"
+            id="Input"
+          />
+
+          <!-- The button used to copy the text -->
+
+          <button
+            style="
+              transition: background 0.4s, color 0.4s;
+              box-shadow: 0px 4px 5px rgb(0, 0, 0, 0.5);
+            "
+            class="btn-black text-white font-md text-hover-teal-light-3"
+            onclick="copyFunction()"
+          >
+            <i class="fas fa-copy"></i>
+          </button>
         </div>
       </section>
     </main>

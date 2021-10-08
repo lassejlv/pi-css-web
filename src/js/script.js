@@ -1,6 +1,6 @@
-function myFunction() {
-  /* Get the text field */
-  var copyText = document.getElementById("myInput");
+function copyFunction() {
+  /* Get the cdn text field */
+  var copyText = document.getElementById("Input");
 
   /* Select the text field */
   copyText.select();
@@ -9,6 +9,10 @@ function myFunction() {
   /* Copy the text inside the text field */
   navigator.clipboard.writeText(copyText.value);
 
-  /* Alert the copied text */
-  alert("Copied the text: " + copyText.value);
+  /* Alert the copied text with a try catch*/
+  try {
+    alert("✅ | Copied the CDN!");
+  } catch (error) {
+    alert("❌ | Error " + error);
+  }
 }
