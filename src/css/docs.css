@@ -21,6 +21,10 @@ body {
   --bg-img: linear-gradient(120deg, #155799, #34383e);
 }
 
+body {
+  background-color: var(--body);
+}
+
 /* navbvar */
 nav {
   align-items: center;

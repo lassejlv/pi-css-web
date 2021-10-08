@@ -1,67 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <head>
-      <!-- Meta Tags -->
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta
-        name="description"
-        content="PI-CSS full documentation page | The CSS framework based on html classes"
-      />
-      <meta name="theme-color" content="#155799" />
-      <!-- Google fonts -->
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
-        rel="stylesheet"
-      />
-      <!-- Fontawesome -->
-      <link
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-        rel="stylesheet"
-      />
-      <!-- Pi-css -->
-      <link
-        rel="stylesheet"
-        href="https://unpkg.com/pi-css@0.0.3/css/index.css"
-      />
-      <!-- Danish Support Lang -->
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PI-CSS full documentation page | The CSS framework based on html classes"
+    />
+    <meta name="theme-color" content="#155799" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Pi-css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/pi-css@0.0.3/css/index.css"
+    />
+    <!-- Danish Support Lang -->
 
-      <link rel="alternate" hreflang="en" href="https://pi-css.plexicz.com" />
-      <link
-        rel="alternate"
-        hreflang="da"
-        href="https://da.pi-css.plexicz.com"
-      />
-      <script
-        type="text/javascript"
-        src="https://cdn.weglot.com/weglot.min.js"
-      ></script>
-      <script>
-        Weglot.initialize({
-          api_key: "wg_dfbd1c03b3c750483582b5d207ec72079",
-        });
-      </script>
-      <!-- Custom styles -->
-      <link rel="stylesheet" href="../src/css/docs.css" />
-      <link rel="icon" href="../src/assets/img/icon.png" />
-      <link rel="manifest" href="../src/manifest.json" />
-      <title>pi-css - docs/overview</title>
-    </head>
+    <link rel="alternate" hreflang="en" href="https://pi-css.plexicz.com" />
+    <link rel="alternate" hreflang="da" href="https://da.pi-css.plexicz.com" />
+    <script
+      type="text/javascript"
+      src="https://cdn.weglot.com/weglot.min.js"
+    ></script>
+    <script>
+      Weglot.initialize({
+        api_key: "wg_dfbd1c03b3c750483582b5d207ec72079",
+      });
+    </script>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="../src/css/docs.css" />
+    <link rel="icon" href="../src/assets/img/icon.png" />
+    <link rel="manifest" href="../src/manifest.json" />
+    <title>pi-css - docs/overview</title>
   </head>
+
   <body>
     <header class="container">
       <nav class="display-flex">
         <h1 id="logo">Documentation</h1>
         <ul class="nav-links">
           <li>
-            <a href="#"> Components</a>
+            <a href="/docs/buttons"> Buttons</a>
           </li>
-          <li><a href="#">Buttons</a></li>
-          <li><a href="#">Utilities</a></li>
+          <li>
+            <a href="/docs/cards"> Cards</a>
+          </li>
+          <li><a href="/docs/utilities">Utilities</a></li>
         </ul>
       </nav>
     </header>
@@ -72,7 +69,7 @@
       const logoBtn = document.getElementById("logo");
 
       logoBtn.addEventListener("click", async () => {
-        await alert("you clicked!");
+        await window.location.replace("/docs");
       });
     </script>
   </body>
