@@ -18,6 +18,7 @@ body {
   --dark: #16191c;
   --body: #f8f9fa;
   --pop: Poppins;
+  --red: #d44d6f;
   --bg-img: linear-gradient(120deg, #155799, #34383e);
 }
 
@@ -54,6 +55,19 @@ nav {
 
 .nav-links a:hover {
   color: #c2c2c2;
+}
+
+/* intro */
+
+.links a {
+  font-family: monospace !important;
+  margin-right: 20px;
+  transition: text-shadow 0.5s, text-decoration 0.5s;
+}
+
+.links a:hover {
+  text-decoration: underline;
+  text-shadow: var(--shadow);
 }
 
 /* Mobile Design */
