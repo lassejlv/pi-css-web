@@ -10,6 +10,10 @@ npm run dev
 yarn dev
 ```
 
+#### STATUS
+
+<strong>New Layout Is Under Construction</strong>
+
 #### Tools there are used:
 
 <li>Coming...</li>
