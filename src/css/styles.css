@@ -140,6 +140,12 @@ footer {
   text-shadow: var(--shadow);
 }
 
+/* head  */
+
+.head a {
+  margin-right: 10px;
+}
+
 /* dowloads versions section */
 
 /* Mobile Design */
