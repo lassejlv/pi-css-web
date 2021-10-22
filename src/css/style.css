@@ -1,0 +1,87 @@
+/* Root */
+
+:root {
+  --shadow: 0px 4px 5px rgb(0, 0, 0, 0.5);
+  --dark: #16191c;
+  --dark-2: #393b3d;
+  --body: #f8f9fa;
+  --pink: #d204fb;
+  --pink-dark: #bf04fa;
+  --purple-dark: #65219f;
+  --purple: #8108ef;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+}
+
+/* icons */
+
+.fa-npm {
+  transition: color 0.4s ease-in-out;
+  font-size: 27px;
+}
+
+.fa-npm:hover {
+  color: #cc3838;
+}
+
+.fa-book {
+  font-size: 15px;
+}
+
+.fa-github {
+  transition: color 0.4s ease-in-out;
+  font-size: 24px;
+}
+
+/* content section 1 */
+
+.content {
+  color: #fff;
+  background-image: linear-gradient(120deg, var(--purple-dark), var(--purple));
+  height: 18em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  font-family: Poppins;
+}
+
+/* content button */
+.content a {
+  padding: 14px;
+  margin-left: 15px;
+  margin-bottom: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white !important;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  text-decoration: none;
+
+  transition: color 0.4s, box-shadow 0.4s, margin-left 0.6s,
+    font-size 0.3s ease-in-out;
+}
+
+.content a:hover {
+  color: rgba(255, 255, 255, 0.7);
+  box-shadow: var(--shadow);
+}
+
+/* main */
+
+#main-h2 {
+  text-transform: capitalize;
+}
+
+/* mobile */
+
+@media screen and (max-width: 540px) {
+  .nav-links {
+    display: none !important;
+  }
+}

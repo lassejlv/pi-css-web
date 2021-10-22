@@ -1,0 +1,13 @@
+{
+  "name": "pi-css-web",
+  "version": "1.0.0",
+  "description": "The website for pi-css",
+  "main": "index.js",
+  "repository": "https://github.com/beetCoder/pi-css-web",
+  "author": "beet",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "dev": "npx live-server"
+  }
+}

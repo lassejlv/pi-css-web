@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The lightweight CSS library" />
+    <meta name="theme-color" content="#155799" />
+    <!-- custom things -->
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/beetCoder/pi-css-web/main/src/assets/img/pi-css.png"
+    />
+    <link rel="manifest" href="./src/manifest.json" />
+    <!-- Fontawesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Pi-css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/pi-css@0.0.4/css/index.css"
+    />
+
+    <!-- Danish Support Lang -->
+
+    <link rel="alternate" hreflang="en" href="https://pi-css.plexicz.com" />
+    <link rel="alternate" hreflang="da" href="https://da.pi-css.plexicz.com" />
+    <script
+      type="text/javascript"
+      src="https://cdn.weglot.com/weglot.min.js"
+    ></script>
+    <script>
+      Weglot.initialize({
+        api_key: "wg_dfbd1c03b3c750483582b5d207ec72079",
+      });
+    </script>
+    <title>pi-css</title>
+  </head>
+  <body>
+    <nav style="height: 5.3rem" class="navbar text-black">
+      <div class="container">
+        <h1
+          style="font-size: 37px; cursor: pointer; text-transform: uppercase"
+          class="site-title"
+          id="logo"
+        >
+          Downlaods
+        </h1>
+        <ul
+          class="display-flex nav-links"
+          style="font-size: 19px; font-family: Poppins, sans-serif"
+        >
+          <li class="ml-1">
+            <a href="/" class="text-hover-gray"> <em>Home</em></a>
+          </li>
+          <li class="ml-1">
+            <a class="text-hover-gray" href="#"> <em>Documentation</em></a>
+          </li>
+          <li style="font-size: 25" class="ml-2">
+            <a
+              class="text-hover-gray"
+              target="_blank"
+              href="https://github.com/lassev2005/pi-css "
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li style="font-size: 25" class="ml-1">
+            <a target="_blank" href="https://npmjs.com/package/pi-css"
+              ><i class="fab fa-npm"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- content 1 -->
+    <section class="content">
+      <h1
+        style="
+          font-family: Arial, Helvetica, sans-serif;
+          text-shadow: var(--shadow);
+        "
+        class="font-xl"
+      >
+        Download pi-css
+      </h1>
+      <br /><br />
+    </section>
+
+    <main>
+      <div class="center">
+        <h1 class="text-center font-xl mt-2">Copy CDN</h1>
+        <br />
+        <!-- The cdn text field -->
+        <input
+          style="
+            width: 34%;
+            padding: 12px 10px;
+            margin: 8px 0;
+            border: none;
+            box-sizing: border-box;
+            box-shadow: var(--shadow);
+          "
+          type="text"
+          type="text"
+          readonly="readonly"
+          value="https://unpkg.com/pi-css@0.0.4/css/index.css"
+          id="Input"
+        />
+
+        <!-- The button used to copy the text -->
+
+        <button
+          style="
+            transition: background 0.4s, color 0.4s;
+            box-shadow: var(--shadow);
+          "
+          class="btn-black text-white font-md text-hover-purple-light-1"
+          onclick="copyFunction()"
+        >
+          <i class="fas fa-copy"></i>
+        </button>
+      </div>
+      <div class="downloads">
+        <h1 class="text-center mt-2 font-xl">Downlaods</h1>
+        <br />
+        <div class="center">
+          <a
+            download="pi"
+            class="text-blue-light-3 font-md mr-1"
+            href="/downloads/pi-css/@0.0.3/pi.min.css"
+            title="v0.0.3"
+            >v0.0.3</a
+          >
+          <a
+            download="pi"
+            class="text-blue-light-3 font-md mr-1"
+            href="/downloads/pi-css/@0.0.4/pi.min.css"
+            title="v0.0.4"
+            >v0.0.4</a
+          >
+        </div>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="bg-gray-dark-7 text-white pt-2 pb-2 mt-5">
+      <div style="cursor: pointer" class="container font-lg">
+        &copy; Pi-Css 2021
+      </div>
+    </footer>
+    <!-- script -->
+    <script>
+      function copyFunction() {
+        const copyText = document.getElementById("Input");
+
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+
+        navigator.clipboard.writeText(copyText.value);
+      }
+    </script>
+  </body>
+</html>
